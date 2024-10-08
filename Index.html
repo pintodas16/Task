@@ -22,32 +22,34 @@
     <link rel="stylesheet" href="./output.css" />
   </head>
   <body>
-    <header class="h-[860px]">
+    <header id="header" class="h-[860px]">
       <nav class="bg-[#1B0C4D]">
         <div>
           <div
             class="max-w-[1170px] w-full mx-auto py-[13px] flex justify-between items-center"
           >
             <!-- for logo  -->
-            <div class="flex gap-1.5 items-center">
+            <a href="#header">
+                <div class="flex gap-1.5 items-center">
               <img class="h-[54px] w-[54px]" src="./image/logo.png" alt="" />
-              <p class="font-Inter font-medium text-logo text-white">
+              <p class="font-Inter font-medium text-logo text-white cursor-pointer">
                 CodeLearn
               </p>
             </div>
+            </a>
             <!-- navLink  -->
             <ul class="flex gap-7.5">
               <li>
                 <a
                   class="font-Inter font-medium text-link text-white hover:text-[#EAE34A]"
-                  href=""
+                  href="#header"
                   >Home</a
                 >
               </li>
               <li>
                 <a
                   class="font-Inter font-medium text-link text-white hover:text-[#EAE34A]"
-                  href=""
+                  href="#courses"
                   >Course</a
                 >
               </li>
@@ -68,7 +70,7 @@
               <li>
                 <a
                   class="font-Inter font-medium text-link text-white hover:text-[#EAE34A]"
-                  href=""
+                  href="#contactus"
                   >Contact</a
                 >
               </li>
@@ -90,7 +92,7 @@
         </div>
       </nav>
       <!-- hero section  -->
-      <div class="py-[112px] bg-custom-gradient-two">
+      <div id="hero" class="py-[112px] bg-custom-gradient-two">
         <div class="max-w-[1170px] w-full mx-auto flex gap-7.5">
           <div class="flex flex-col gap-10">
             <div>
@@ -633,7 +635,480 @@ around the world & develop your skills.</p>
                         </div>
                    </div>
           </section>
+          <section id="courses" class="py-[70px]">
+            <div class="max-w-[1170px] mx-auto w-full">
+                <div class="flex justify-between ">
+                    <h3 class="font-Inter font-semibold text-h3 text-black">Popular Courses</h3>
+                    <button class="font-Inter font-medium text-button text-[#261EAE] underline">View All</button>
+
+                </div>
+               <div class="flex flex-col gap-[60px]">
+                <div class="pt-[40px] grid grid-cols-3 gap-7.5">
+                    <!-- single course  -->
+                    <div class="flex flex-col gap-4">
+                        <div class="h-[296px] rouned-3xl">
+                            <img class="h-full w-full rounded-3xl" src="./image/course-one.png" alt="">
+                        </div>
+                        <div class="flex flex-col gap-[28px]">
+                            <div class="flex flex-col gap-4">
+                               
+                                     <div>
+                                        <div class="inline-flex px-[14px] py-1 rounded-sm bg-[#F3F2FF] font-Inter font-medium text-link text-[#4942BB]">Design</div>
+                                     </div>
+                                  <h4 class="font-Inter font-semibold text-tiny-xl text-black">The 6 Steps to Building a 
+                                                powerful Personal brand</h4>
+                               
+                            </div>
+                            <div class="flex gap-2.5">
+                                <span>
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11.668 11.6673C11.668 12.1276 11.2949 12.5007 10.8346 12.5007H7.5013C7.04106 12.5007 6.66797 12.1276 6.66797 11.6673C6.66797 11.2071 7.04106 10.834 7.5013 10.834H10.8346C11.2949 10.834 11.668 11.2071 11.668 11.6673Z" fill="#434254"/>
+<path d="M13.3346 8.33333C13.3346 8.79359 12.9615 9.16667 12.5013 9.16667H7.5013C7.04106 9.16667 6.66797 8.79359 6.66797 8.33333C6.66797 7.87309 7.04106 7.5 7.5013 7.5H12.5013C12.9615 7.5 13.3346 7.87309 13.3346 8.33333Z" fill="#434254"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M16.1811 5.34453C16.4937 5.65709 16.6693 6.08102 16.6693 6.52304V16.666C16.6693 17.5865 15.9231 18.3327 15.0026 18.3327H5.0026C4.08213 18.3327 3.33594 17.5865 3.33594 16.666V3.33268C3.33594 2.41221 4.08213 1.66602 5.0026 1.66602H11.8123C12.2543 1.66602 12.6782 1.84161 12.9908 2.15417L16.1811 5.34453ZM15.0026 6.52304V16.666H5.0026V3.33268H11.8123L15.0026 6.52304Z" fill="#434254"/>
+</svg>
+
+                                </span>
+                                <span class="font-Inter font-normal text-extra-small text-[#434254]">2 Lessons</span>
+                            </div>
+                            <div class="flex gap-[87px]">
+                                    <div class="flex gap-2">
+                                        <span>
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2002_2169)">
+<mask id="mask0_2002_2169" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="20">
+<path d="M20 0H0V20H20V0Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_2002_2169)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M5.83203 8.75C7.55792 8.75 8.95703 7.35089 8.95703 5.625C8.95703 3.89911 7.55792 2.5 5.83203 2.5C4.10614 2.5 2.70703 3.89911 2.70703 5.625C2.70703 7.35089 4.10614 8.75 5.83203 8.75ZM5.83203 7.08333C6.63745 7.08333 7.29036 6.43042 7.29036 5.625C7.29036 4.81958 6.63745 4.16667 5.83203 4.16667C5.02661 4.16667 4.3737 4.81958 4.3737 5.625C4.3737 6.43042 5.02661 7.08333 5.83203 7.08333Z" fill="#434254"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M17.293 5.625C17.293 7.35089 15.8939 8.75 14.168 8.75C12.4421 8.75 11.043 7.35089 11.043 5.625C11.043 3.89911 12.4421 2.5 14.168 2.5C15.8939 2.5 17.293 3.89911 17.293 5.625ZM15.6263 5.625C15.6263 6.43042 14.9734 7.08333 14.168 7.08333C13.3626 7.08333 12.7096 6.43042 12.7096 5.625C12.7096 4.81958 13.3626 4.16667 14.168 4.16667C14.9734 4.16667 15.6263 4.81958 15.6263 5.625Z" fill="#434254"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M12.8839 11.8136C13.296 11.7175 13.7259 11.6667 14.1683 11.6667C15.8198 11.6667 17.3037 12.3764 18.335 13.5127V15H13.335C13.335 15.6072 13.1727 16.1764 12.8891 16.6667H18.335C19.2555 16.6667 20.0017 15.9205 20.0017 15V13.4723C20.0017 13.1112 19.8891 12.7557 19.6509 12.4843C18.3145 10.9613 16.3537 10 14.1683 10C13.2738 10 12.4169 10.1611 11.625 10.4558C11.9627 10.742 12.2787 11.0527 12.5703 11.3849C12.6903 11.5217 12.7944 11.6653 12.8839 11.8136Z" fill="#434254"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M10 16.6667C10.9205 16.6667 11.6667 15.9205 11.6667 15V13.4723C11.6667 13.1112 11.5541 12.7557 11.3159 12.4843C10.9269 12.041 10.485 11.6453 10 11.307C8.81892 10.4832 7.38255 10 5.83333 10C3.64798 10 1.68718 10.9613 0.350757 12.4843C0.11258 12.7557 0 13.1112 0 13.4723V15C0 15.9205 0.746193 16.6667 1.66667 16.6667H10ZM5.83333 11.6667C7.48487 11.6667 8.96867 12.3764 10 13.5127V15H1.66667V13.5127C2.69798 12.3764 4.18181 11.6667 5.83333 11.6667ZM1.66683 13.4681C1.66683 13.4682 1.66686 13.4678 1.66683 13.4681V13.4681Z" fill="#434254"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_2002_2169">
+<rect width="20" height="20" fill="white"/>
+</clipPath>
+</defs>
+                                            </svg>
+
+                                        </span>
+                                        <span class="font-Inter font-normal text-extra-small text-[#434254]">30 Students enrolled</span>
+                                    </div>
+                                    <div>
+                                        <button class="border border-[#9B98D9] w-[160px] h-[40px] font-Inter font-medium text-medium text-black rounded-md">View Course </button>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-4">
+                        <div class="h-[296px] rouned-3xl">
+                            <img class="h-full w-full rounded-3xl" src="./image/course-three.png" alt="three">
+                        </div>
+                        <div class="flex flex-col gap-[28px]">
+                            <div class="flex flex-col gap-4">
+                               
+                                     <div>
+                                        <div class="inline-flex px-[14px] py-1 rounded-sm bg-[#F3F2FF] font-Inter font-medium text-link text-[#4942BB]">Design</div>
+                                     </div>
+                                  <h4 class="font-Inter font-semibold text-tiny-xl text-black">The 6 Steps to Building a 
+                                                powerful Personal brand</h4>
+                               
+                            </div>
+                            <div class="flex gap-2.5">
+                                <span>
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11.668 11.6673C11.668 12.1276 11.2949 12.5007 10.8346 12.5007H7.5013C7.04106 12.5007 6.66797 12.1276 6.66797 11.6673C6.66797 11.2071 7.04106 10.834 7.5013 10.834H10.8346C11.2949 10.834 11.668 11.2071 11.668 11.6673Z" fill="#434254"/>
+<path d="M13.3346 8.33333C13.3346 8.79359 12.9615 9.16667 12.5013 9.16667H7.5013C7.04106 9.16667 6.66797 8.79359 6.66797 8.33333C6.66797 7.87309 7.04106 7.5 7.5013 7.5H12.5013C12.9615 7.5 13.3346 7.87309 13.3346 8.33333Z" fill="#434254"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M16.1811 5.34453C16.4937 5.65709 16.6693 6.08102 16.6693 6.52304V16.666C16.6693 17.5865 15.9231 18.3327 15.0026 18.3327H5.0026C4.08213 18.3327 3.33594 17.5865 3.33594 16.666V3.33268C3.33594 2.41221 4.08213 1.66602 5.0026 1.66602H11.8123C12.2543 1.66602 12.6782 1.84161 12.9908 2.15417L16.1811 5.34453ZM15.0026 6.52304V16.666H5.0026V3.33268H11.8123L15.0026 6.52304Z" fill="#434254"/>
+</svg>
+
+                                </span>
+                                <span class="font-Inter font-normal text-extra-small text-[#434254]">2 Lessons</span>
+                            </div>
+                            <div class="flex gap-[87px]">
+                                    <div class="flex gap-2">
+                                        <span>
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2002_2169)">
+<mask id="mask0_2002_2169" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="20">
+<path d="M20 0H0V20H20V0Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_2002_2169)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M5.83203 8.75C7.55792 8.75 8.95703 7.35089 8.95703 5.625C8.95703 3.89911 7.55792 2.5 5.83203 2.5C4.10614 2.5 2.70703 3.89911 2.70703 5.625C2.70703 7.35089 4.10614 8.75 5.83203 8.75ZM5.83203 7.08333C6.63745 7.08333 7.29036 6.43042 7.29036 5.625C7.29036 4.81958 6.63745 4.16667 5.83203 4.16667C5.02661 4.16667 4.3737 4.81958 4.3737 5.625C4.3737 6.43042 5.02661 7.08333 5.83203 7.08333Z" fill="#434254"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M17.293 5.625C17.293 7.35089 15.8939 8.75 14.168 8.75C12.4421 8.75 11.043 7.35089 11.043 5.625C11.043 3.89911 12.4421 2.5 14.168 2.5C15.8939 2.5 17.293 3.89911 17.293 5.625ZM15.6263 5.625C15.6263 6.43042 14.9734 7.08333 14.168 7.08333C13.3626 7.08333 12.7096 6.43042 12.7096 5.625C12.7096 4.81958 13.3626 4.16667 14.168 4.16667C14.9734 4.16667 15.6263 4.81958 15.6263 5.625Z" fill="#434254"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M12.8839 11.8136C13.296 11.7175 13.7259 11.6667 14.1683 11.6667C15.8198 11.6667 17.3037 12.3764 18.335 13.5127V15H13.335C13.335 15.6072 13.1727 16.1764 12.8891 16.6667H18.335C19.2555 16.6667 20.0017 15.9205 20.0017 15V13.4723C20.0017 13.1112 19.8891 12.7557 19.6509 12.4843C18.3145 10.9613 16.3537 10 14.1683 10C13.2738 10 12.4169 10.1611 11.625 10.4558C11.9627 10.742 12.2787 11.0527 12.5703 11.3849C12.6903 11.5217 12.7944 11.6653 12.8839 11.8136Z" fill="#434254"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M10 16.6667C10.9205 16.6667 11.6667 15.9205 11.6667 15V13.4723C11.6667 13.1112 11.5541 12.7557 11.3159 12.4843C10.9269 12.041 10.485 11.6453 10 11.307C8.81892 10.4832 7.38255 10 5.83333 10C3.64798 10 1.68718 10.9613 0.350757 12.4843C0.11258 12.7557 0 13.1112 0 13.4723V15C0 15.9205 0.746193 16.6667 1.66667 16.6667H10ZM5.83333 11.6667C7.48487 11.6667 8.96867 12.3764 10 13.5127V15H1.66667V13.5127C2.69798 12.3764 4.18181 11.6667 5.83333 11.6667ZM1.66683 13.4681C1.66683 13.4682 1.66686 13.4678 1.66683 13.4681V13.4681Z" fill="#434254"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_2002_2169">
+<rect width="20" height="20" fill="white"/>
+</clipPath>
+</defs>
+                                            </svg>
+
+                                        </span>
+                                        <span class="font-Inter font-normal text-extra-small text-[#434254]">30 Students enrolled</span>
+                                    </div>
+                                    <div>
+                                        <button class="border border-[#9B98D9] w-[160px] h-[40px] font-Inter font-medium text-medium text-black rounded-md">View Course </button>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-4">
+                        <div class="h-[296px] rouned-3xl">
+                            <img class="h-full w-full rounded-3xl" src="./image/course-two.png" alt="two">
+                        </div>
+                        <div class="flex flex-col gap-[28px]">
+                            <div class="flex flex-col gap-4">
+                               
+                                     <div>
+                                        <div class="inline-flex px-[14px] py-1 rounded-sm bg-[#F3F2FF] font-Inter font-medium text-link text-[#4942BB]">Design</div>
+                                     </div>
+                                  <h4 class="font-Inter font-semibold text-tiny-xl text-black">The 6 Steps to Building a 
+                                                powerful Personal brand</h4>
+                               
+                            </div>
+                            <div class="flex gap-2.5">
+                                <span>
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11.668 11.6673C11.668 12.1276 11.2949 12.5007 10.8346 12.5007H7.5013C7.04106 12.5007 6.66797 12.1276 6.66797 11.6673C6.66797 11.2071 7.04106 10.834 7.5013 10.834H10.8346C11.2949 10.834 11.668 11.2071 11.668 11.6673Z" fill="#434254"/>
+<path d="M13.3346 8.33333C13.3346 8.79359 12.9615 9.16667 12.5013 9.16667H7.5013C7.04106 9.16667 6.66797 8.79359 6.66797 8.33333C6.66797 7.87309 7.04106 7.5 7.5013 7.5H12.5013C12.9615 7.5 13.3346 7.87309 13.3346 8.33333Z" fill="#434254"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M16.1811 5.34453C16.4937 5.65709 16.6693 6.08102 16.6693 6.52304V16.666C16.6693 17.5865 15.9231 18.3327 15.0026 18.3327H5.0026C4.08213 18.3327 3.33594 17.5865 3.33594 16.666V3.33268C3.33594 2.41221 4.08213 1.66602 5.0026 1.66602H11.8123C12.2543 1.66602 12.6782 1.84161 12.9908 2.15417L16.1811 5.34453ZM15.0026 6.52304V16.666H5.0026V3.33268H11.8123L15.0026 6.52304Z" fill="#434254"/>
+</svg>
+
+                                </span>
+                                <span class="font-Inter font-normal text-extra-small text-[#434254]">2 Lessons</span>
+                            </div>
+                            <div class="flex gap-[87px]">
+                                    <div class="flex gap-2">
+                                        <span>
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2002_2169)">
+<mask id="mask0_2002_2169" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="20">
+<path d="M20 0H0V20H20V0Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_2002_2169)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M5.83203 8.75C7.55792 8.75 8.95703 7.35089 8.95703 5.625C8.95703 3.89911 7.55792 2.5 5.83203 2.5C4.10614 2.5 2.70703 3.89911 2.70703 5.625C2.70703 7.35089 4.10614 8.75 5.83203 8.75ZM5.83203 7.08333C6.63745 7.08333 7.29036 6.43042 7.29036 5.625C7.29036 4.81958 6.63745 4.16667 5.83203 4.16667C5.02661 4.16667 4.3737 4.81958 4.3737 5.625C4.3737 6.43042 5.02661 7.08333 5.83203 7.08333Z" fill="#434254"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M17.293 5.625C17.293 7.35089 15.8939 8.75 14.168 8.75C12.4421 8.75 11.043 7.35089 11.043 5.625C11.043 3.89911 12.4421 2.5 14.168 2.5C15.8939 2.5 17.293 3.89911 17.293 5.625ZM15.6263 5.625C15.6263 6.43042 14.9734 7.08333 14.168 7.08333C13.3626 7.08333 12.7096 6.43042 12.7096 5.625C12.7096 4.81958 13.3626 4.16667 14.168 4.16667C14.9734 4.16667 15.6263 4.81958 15.6263 5.625Z" fill="#434254"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M12.8839 11.8136C13.296 11.7175 13.7259 11.6667 14.1683 11.6667C15.8198 11.6667 17.3037 12.3764 18.335 13.5127V15H13.335C13.335 15.6072 13.1727 16.1764 12.8891 16.6667H18.335C19.2555 16.6667 20.0017 15.9205 20.0017 15V13.4723C20.0017 13.1112 19.8891 12.7557 19.6509 12.4843C18.3145 10.9613 16.3537 10 14.1683 10C13.2738 10 12.4169 10.1611 11.625 10.4558C11.9627 10.742 12.2787 11.0527 12.5703 11.3849C12.6903 11.5217 12.7944 11.6653 12.8839 11.8136Z" fill="#434254"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M10 16.6667C10.9205 16.6667 11.6667 15.9205 11.6667 15V13.4723C11.6667 13.1112 11.5541 12.7557 11.3159 12.4843C10.9269 12.041 10.485 11.6453 10 11.307C8.81892 10.4832 7.38255 10 5.83333 10C3.64798 10 1.68718 10.9613 0.350757 12.4843C0.11258 12.7557 0 13.1112 0 13.4723V15C0 15.9205 0.746193 16.6667 1.66667 16.6667H10ZM5.83333 11.6667C7.48487 11.6667 8.96867 12.3764 10 13.5127V15H1.66667V13.5127C2.69798 12.3764 4.18181 11.6667 5.83333 11.6667ZM1.66683 13.4681C1.66683 13.4682 1.66686 13.4678 1.66683 13.4681V13.4681Z" fill="#434254"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_2002_2169">
+<rect width="20" height="20" fill="white"/>
+</clipPath>
+</defs>
+                                            </svg>
+
+                                        </span>
+                                        <span class="font-Inter font-normal text-extra-small text-[#434254]">30 Students enrolled</span>
+                                    </div>
+                                    <div>
+                                        <button class="border border-[#9B98D9] w-[160px] h-[40px] font-Inter font-medium text-medium text-black rounded-md">View Course </button>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-center">
+                        <ul class="w-[385px] flex gap-[17px] items-center">
+                                <li class="h-[24px] w-[24px] flex justify-center items-center">
+                                    <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7 1L1 7L7 13" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+
+                                </li>
+                               <li><a class="font-Inter font-medium text-sublink text-black" href="">1</a></li>
+                               <li><a class="font-Inter font-medium text-sublink text-black " href="">...</a></li>
+                                <li><a class=" h-[36px] w-[36px] flex items-center justify-center bg-[#4942BB] rounded-full text-white font-Inter font-medium text-sublink" href="">15</a></li>
+                                <li><a class="font-Inter font-medium text-sublink text-black" href="">16</a></li>
+                                <li><a class="font-Inter font-medium text-sublink text-black" href="">17</a></li>
+                                <li><a class="font-Inter font-medium text-sublink text-black" href="">18</a></li>
+                                <li><a class="font-Inter font-medium text-sublink text-black" href="">...</a></li>
+                                <li class="h-[24px] w-[24px] flex justify-center items-center">
+                                    <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 13L7 7L0.999999 1" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </li>
+                        </ul>
+                </div>
+               </div>
+            </div>
+          </section>
+
+          <!-- testimonial section  -->
+
+          <section class="py-[70px]">
+            <div class="max-w-[1170px] w-full mx-auto ">
+                <div class="flex flex-col items-center gap-6">
+                    <h3 class="font-Inter font-semibold text-h3 text-black max-w-[671px] text-center">What Customers are Saying About us</h3>
+                    <p class="font-Inter font-normal text-link text-[#434254] max-w-[757px]">Our commitment to quality, sustainability, and customer satisfaction remains unwavering.</p>
+                </div>
+               <div class="relative">
+                <div class="flex flex-col gap-[50px]">
+                     <div class="pt-[50px] grid grid-cols-3 gap-[50px]">
+                        <div class="py-[40px] px-[38px] bg-[#FFFFFF] border border-[#E0E1E4] rounded-4xl  flex flex-col gap-[14px]">
+                            <div class="flex justify-between">
+                                <div class="h-[58px] w-[58px] rounded-full">
+                                    <img class="h-full w-full rounded-full" src="./image/uer-three.png" alt="">
+                                </div>
+                                <div>
+                                    <svg width="68" height="60" viewBox="0 0 68 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 19.375C0 25.243 4.75697 30 10.625 30C16.493 30 21.6234 35.0041 19.1895 40.3436C16.5075 46.2275 11.3176 50.0375 4.27319 51.1149C1.93346 51.4727 0 53.3474 0 55.7143C0 58.0812 1.929 60.03 4.28021 59.7576C19.6886 57.9725 29.75 46.4686 29.75 30V14.875C29.75 6.65976 23.0902 0 14.875 0C6.65976 0 0 6.65976 0 14.875V19.375ZM53.125 0C44.9098 0 38.25 6.65976 38.25 14.875V19.375C38.25 25.243 43.007 30 48.875 30C54.743 30 59.8734 35.0041 57.4395 40.3436C54.7575 46.2275 49.5676 50.0375 42.5232 51.1149C40.1835 51.4727 38.25 53.3474 38.25 55.7143C38.25 58.0812 40.179 60.03 42.5302 59.7576C57.9386 57.9725 68 46.4686 68 30V14.875C68 6.65976 61.3402 0 53.125 0Z" fill="#F2F2F2"/>
+                                    </svg>
+
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-2.5">
+                                <h6 class="font-Inter font-medium text-2xl text-black">Joe Root</h6>
+                                <p class="font-Inter font-normal text-link text-[#515768]">Marketing Specialist</p>
+                                <div class="flex gap-[1px]">
+                                    <span>
+                                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.0489 0.927053C10.3483 0.00574231 11.6517 0.00573993 11.9511 0.927051L13.6942 6.29179C13.828 6.70382 14.212 6.98278 14.6452 6.98278H20.2861C21.2548 6.98278 21.6576 8.22239 20.8738 8.7918L16.3103 12.1074C15.9598 12.362 15.8132 12.8134 15.947 13.2254L17.6902 18.5902C17.9895 19.5115 16.935 20.2776 16.1513 19.7082L11.5878 16.3926C11.2373 16.138 10.7627 16.138 10.4122 16.3926L5.84869 19.7082C5.06498 20.2776 4.0105 19.5115 4.30985 18.5902L6.05296 13.2254C6.18683 12.8134 6.04018 12.362 5.68969 12.1074L1.12616 8.7918C0.342451 8.22239 0.745225 6.98278 1.71395 6.98278H7.35477C7.788 6.98278 8.17196 6.70382 8.30583 6.2918L10.0489 0.927053Z" fill="#F79009"/>
+                                            </svg>
+
+                                    </span>
+                                    <span>
+                                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.0489 0.927053C10.3483 0.00574231 11.6517 0.00573993 11.9511 0.927051L13.6942 6.29179C13.828 6.70382 14.212 6.98278 14.6452 6.98278H20.2861C21.2548 6.98278 21.6576 8.22239 20.8738 8.7918L16.3103 12.1074C15.9598 12.362 15.8132 12.8134 15.947 13.2254L17.6902 18.5902C17.9895 19.5115 16.935 20.2776 16.1513 19.7082L11.5878 16.3926C11.2373 16.138 10.7627 16.138 10.4122 16.3926L5.84869 19.7082C5.06498 20.2776 4.0105 19.5115 4.30985 18.5902L6.05296 13.2254C6.18683 12.8134 6.04018 12.362 5.68969 12.1074L1.12616 8.7918C0.342451 8.22239 0.745225 6.98278 1.71395 6.98278H7.35477C7.788 6.98278 8.17196 6.70382 8.30583 6.2918L10.0489 0.927053Z" fill="#F79009"/>
+                                            </svg>
+
+                                    </span>
+                                    <span>
+                                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.0489 0.927053C10.3483 0.00574231 11.6517 0.00573993 11.9511 0.927051L13.6942 6.29179C13.828 6.70382 14.212 6.98278 14.6452 6.98278H20.2861C21.2548 6.98278 21.6576 8.22239 20.8738 8.7918L16.3103 12.1074C15.9598 12.362 15.8132 12.8134 15.947 13.2254L17.6902 18.5902C17.9895 19.5115 16.935 20.2776 16.1513 19.7082L11.5878 16.3926C11.2373 16.138 10.7627 16.138 10.4122 16.3926L5.84869 19.7082C5.06498 20.2776 4.0105 19.5115 4.30985 18.5902L6.05296 13.2254C6.18683 12.8134 6.04018 12.362 5.68969 12.1074L1.12616 8.7918C0.342451 8.22239 0.745225 6.98278 1.71395 6.98278H7.35477C7.788 6.98278 8.17196 6.70382 8.30583 6.2918L10.0489 0.927053Z" fill="#F79009"/>
+                                            </svg>
+
+                                    </span>
+                                    <span>
+                                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.0489 0.927053C10.3483 0.00574231 11.6517 0.00573993 11.9511 0.927051L13.6942 6.29179C13.828 6.70382 14.212 6.98278 14.6452 6.98278H20.2861C21.2548 6.98278 21.6576 8.22239 20.8738 8.7918L16.3103 12.1074C15.9598 12.362 15.8132 12.8134 15.947 13.2254L17.6902 18.5902C17.9895 19.5115 16.935 20.2776 16.1513 19.7082L11.5878 16.3926C11.2373 16.138 10.7627 16.138 10.4122 16.3926L5.84869 19.7082C5.06498 20.2776 4.0105 19.5115 4.30985 18.5902L6.05296 13.2254C6.18683 12.8134 6.04018 12.362 5.68969 12.1074L1.12616 8.7918C0.342451 8.22239 0.745225 6.98278 1.71395 6.98278H7.35477C7.788 6.98278 8.17196 6.70382 8.30583 6.2918L10.0489 0.927053Z" fill="#F79009"/>
+                                            </svg>
+
+                                    </span>
+                                    <span>
+                                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.0489 0.927053C10.3483 0.00574231 11.6517 0.00573993 11.9511 0.927051L13.6942 6.29179C13.828 6.70382 14.212 6.98278 14.6452 6.98278H20.2861C21.2548 6.98278 21.6576 8.22239 20.8738 8.7918L16.3103 12.1074C15.9598 12.362 15.8132 12.8134 15.947 13.2254L17.6902 18.5902C17.9895 19.5115 16.935 20.2776 16.1513 19.7082L11.5878 16.3926C11.2373 16.138 10.7627 16.138 10.4122 16.3926L5.84869 19.7082C5.06498 20.2776 4.0105 19.5115 4.30985 18.5902L6.05296 13.2254C6.18683 12.8134 6.04018 12.362 5.68969 12.1074L1.12616 8.7918C0.342451 8.22239 0.745225 6.98278 1.71395 6.98278H7.35477C7.788 6.98278 8.17196 6.70382 8.30583 6.2918L10.0489 0.927053Z" fill="#F79009"/>
+                                            </svg>
+
+                                    </span>
+                                </div>
+                            </div>
+                            <p class="font-Inter font-normal text-xs text-[#434254] max-w-[285px]">“The ease of use, quality of coffee, and the
+                                outstanding customer support make with 
+                                Corfeel choice for all things coffee."</p>
+                        </div>
+                        <div class="py-[40px] px-[38px] bg-[#FFFFFF] border border-[#E0E1E4] rounded-4xl shadow-shadow-four flex flex-col gap-[14px]">
+                            <div class="flex justify-between">
+                                <div class="h-[58px] w-[58px] rounded-full">
+                                    <img class="h-full w-full rounded-full" src="./image/userone.png" alt="">
+                                </div>
+                                <div>
+                                    <svg width="68" height="60" viewBox="0 0 68 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 19.375C0 25.243 4.75697 30 10.625 30C16.493 30 21.6234 35.0041 19.1895 40.3436C16.5075 46.2275 11.3176 50.0375 4.27319 51.1149C1.93346 51.4727 0 53.3474 0 55.7143C0 58.0812 1.929 60.03 4.28021 59.7576C19.6886 57.9725 29.75 46.4686 29.75 30V14.875C29.75 6.65976 23.0902 0 14.875 0C6.65976 0 0 6.65976 0 14.875V19.375ZM53.125 0C44.9098 0 38.25 6.65976 38.25 14.875V19.375C38.25 25.243 43.007 30 48.875 30C54.743 30 59.8734 35.0041 57.4395 40.3436C54.7575 46.2275 49.5676 50.0375 42.5232 51.1149C40.1835 51.4727 38.25 53.3474 38.25 55.7143C38.25 58.0812 40.179 60.03 42.5302 59.7576C57.9386 57.9725 68 46.4686 68 30V14.875C68 6.65976 61.3402 0 53.125 0Z" fill="#F2F2F2"/>
+                                    </svg>
+
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-2.5">
+                                <h6 class="font-Inter font-medium text-2xl text-black">Joe Root</h6>
+                                <p class="font-Inter font-normal text-link text-[#515768]">Marketing Specialist</p>
+                                <div class="flex gap-[1px]">
+                                    <span>
+                                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.0489 0.927053C10.3483 0.00574231 11.6517 0.00573993 11.9511 0.927051L13.6942 6.29179C13.828 6.70382 14.212 6.98278 14.6452 6.98278H20.2861C21.2548 6.98278 21.6576 8.22239 20.8738 8.7918L16.3103 12.1074C15.9598 12.362 15.8132 12.8134 15.947 13.2254L17.6902 18.5902C17.9895 19.5115 16.935 20.2776 16.1513 19.7082L11.5878 16.3926C11.2373 16.138 10.7627 16.138 10.4122 16.3926L5.84869 19.7082C5.06498 20.2776 4.0105 19.5115 4.30985 18.5902L6.05296 13.2254C6.18683 12.8134 6.04018 12.362 5.68969 12.1074L1.12616 8.7918C0.342451 8.22239 0.745225 6.98278 1.71395 6.98278H7.35477C7.788 6.98278 8.17196 6.70382 8.30583 6.2918L10.0489 0.927053Z" fill="#F79009"/>
+                                            </svg>
+
+                                    </span>
+                                    <span>
+                                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.0489 0.927053C10.3483 0.00574231 11.6517 0.00573993 11.9511 0.927051L13.6942 6.29179C13.828 6.70382 14.212 6.98278 14.6452 6.98278H20.2861C21.2548 6.98278 21.6576 8.22239 20.8738 8.7918L16.3103 12.1074C15.9598 12.362 15.8132 12.8134 15.947 13.2254L17.6902 18.5902C17.9895 19.5115 16.935 20.2776 16.1513 19.7082L11.5878 16.3926C11.2373 16.138 10.7627 16.138 10.4122 16.3926L5.84869 19.7082C5.06498 20.2776 4.0105 19.5115 4.30985 18.5902L6.05296 13.2254C6.18683 12.8134 6.04018 12.362 5.68969 12.1074L1.12616 8.7918C0.342451 8.22239 0.745225 6.98278 1.71395 6.98278H7.35477C7.788 6.98278 8.17196 6.70382 8.30583 6.2918L10.0489 0.927053Z" fill="#F79009"/>
+                                            </svg>
+
+                                    </span>
+                                    <span>
+                                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.0489 0.927053C10.3483 0.00574231 11.6517 0.00573993 11.9511 0.927051L13.6942 6.29179C13.828 6.70382 14.212 6.98278 14.6452 6.98278H20.2861C21.2548 6.98278 21.6576 8.22239 20.8738 8.7918L16.3103 12.1074C15.9598 12.362 15.8132 12.8134 15.947 13.2254L17.6902 18.5902C17.9895 19.5115 16.935 20.2776 16.1513 19.7082L11.5878 16.3926C11.2373 16.138 10.7627 16.138 10.4122 16.3926L5.84869 19.7082C5.06498 20.2776 4.0105 19.5115 4.30985 18.5902L6.05296 13.2254C6.18683 12.8134 6.04018 12.362 5.68969 12.1074L1.12616 8.7918C0.342451 8.22239 0.745225 6.98278 1.71395 6.98278H7.35477C7.788 6.98278 8.17196 6.70382 8.30583 6.2918L10.0489 0.927053Z" fill="#F79009"/>
+                                            </svg>
+
+                                    </span>
+                                    <span>
+                                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.0489 0.927053C10.3483 0.00574231 11.6517 0.00573993 11.9511 0.927051L13.6942 6.29179C13.828 6.70382 14.212 6.98278 14.6452 6.98278H20.2861C21.2548 6.98278 21.6576 8.22239 20.8738 8.7918L16.3103 12.1074C15.9598 12.362 15.8132 12.8134 15.947 13.2254L17.6902 18.5902C17.9895 19.5115 16.935 20.2776 16.1513 19.7082L11.5878 16.3926C11.2373 16.138 10.7627 16.138 10.4122 16.3926L5.84869 19.7082C5.06498 20.2776 4.0105 19.5115 4.30985 18.5902L6.05296 13.2254C6.18683 12.8134 6.04018 12.362 5.68969 12.1074L1.12616 8.7918C0.342451 8.22239 0.745225 6.98278 1.71395 6.98278H7.35477C7.788 6.98278 8.17196 6.70382 8.30583 6.2918L10.0489 0.927053Z" fill="#F79009"/>
+                                            </svg>
+
+                                    </span>
+                                    <span>
+                                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.0489 0.927053C10.3483 0.00574231 11.6517 0.00573993 11.9511 0.927051L13.6942 6.29179C13.828 6.70382 14.212 6.98278 14.6452 6.98278H20.2861C21.2548 6.98278 21.6576 8.22239 20.8738 8.7918L16.3103 12.1074C15.9598 12.362 15.8132 12.8134 15.947 13.2254L17.6902 18.5902C17.9895 19.5115 16.935 20.2776 16.1513 19.7082L11.5878 16.3926C11.2373 16.138 10.7627 16.138 10.4122 16.3926L5.84869 19.7082C5.06498 20.2776 4.0105 19.5115 4.30985 18.5902L6.05296 13.2254C6.18683 12.8134 6.04018 12.362 5.68969 12.1074L1.12616 8.7918C0.342451 8.22239 0.745225 6.98278 1.71395 6.98278H7.35477C7.788 6.98278 8.17196 6.70382 8.30583 6.2918L10.0489 0.927053Z" fill="#F79009"/>
+                                            </svg>
+
+                                    </span>
+                                </div>
+                            </div>
+                            <p class="font-Inter font-normal text-xs text-[#434254] max-w-[285px]">“The ease of use, quality of coffee, and the
+                                outstanding customer support make with 
+                                Corfeel choice for all things coffee."</p>
+                        </div>
+                        <div class="py-[40px] px-[38px] bg-[#FFFFFF] border border-[#E0E1E4] rounded-4xl  flex flex-col gap-[14px]">
+                            <div class="flex justify-between">
+                                <div class="h-[58px] w-[58px] rounded-full">
+                                    <img class="h-full w-full rounded-full" src="./image/usertwo.png" alt="">
+                                </div>
+                                <div>
+                                    <svg width="68" height="60" viewBox="0 0 68 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 19.375C0 25.243 4.75697 30 10.625 30C16.493 30 21.6234 35.0041 19.1895 40.3436C16.5075 46.2275 11.3176 50.0375 4.27319 51.1149C1.93346 51.4727 0 53.3474 0 55.7143C0 58.0812 1.929 60.03 4.28021 59.7576C19.6886 57.9725 29.75 46.4686 29.75 30V14.875C29.75 6.65976 23.0902 0 14.875 0C6.65976 0 0 6.65976 0 14.875V19.375ZM53.125 0C44.9098 0 38.25 6.65976 38.25 14.875V19.375C38.25 25.243 43.007 30 48.875 30C54.743 30 59.8734 35.0041 57.4395 40.3436C54.7575 46.2275 49.5676 50.0375 42.5232 51.1149C40.1835 51.4727 38.25 53.3474 38.25 55.7143C38.25 58.0812 40.179 60.03 42.5302 59.7576C57.9386 57.9725 68 46.4686 68 30V14.875C68 6.65976 61.3402 0 53.125 0Z" fill="#F2F2F2"/>
+                                    </svg>
+
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-2.5">
+                                <h6 class="font-Inter font-medium text-2xl text-black">Joe Root</h6>
+                                <p class="font-Inter font-normal text-link text-[#515768]">Marketing Specialist</p>
+                                <div class="flex gap-[1px]">
+                                    <span>
+                                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.0489 0.927053C10.3483 0.00574231 11.6517 0.00573993 11.9511 0.927051L13.6942 6.29179C13.828 6.70382 14.212 6.98278 14.6452 6.98278H20.2861C21.2548 6.98278 21.6576 8.22239 20.8738 8.7918L16.3103 12.1074C15.9598 12.362 15.8132 12.8134 15.947 13.2254L17.6902 18.5902C17.9895 19.5115 16.935 20.2776 16.1513 19.7082L11.5878 16.3926C11.2373 16.138 10.7627 16.138 10.4122 16.3926L5.84869 19.7082C5.06498 20.2776 4.0105 19.5115 4.30985 18.5902L6.05296 13.2254C6.18683 12.8134 6.04018 12.362 5.68969 12.1074L1.12616 8.7918C0.342451 8.22239 0.745225 6.98278 1.71395 6.98278H7.35477C7.788 6.98278 8.17196 6.70382 8.30583 6.2918L10.0489 0.927053Z" fill="#F79009"/>
+                                            </svg>
+
+                                    </span>
+                                    <span>
+                                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.0489 0.927053C10.3483 0.00574231 11.6517 0.00573993 11.9511 0.927051L13.6942 6.29179C13.828 6.70382 14.212 6.98278 14.6452 6.98278H20.2861C21.2548 6.98278 21.6576 8.22239 20.8738 8.7918L16.3103 12.1074C15.9598 12.362 15.8132 12.8134 15.947 13.2254L17.6902 18.5902C17.9895 19.5115 16.935 20.2776 16.1513 19.7082L11.5878 16.3926C11.2373 16.138 10.7627 16.138 10.4122 16.3926L5.84869 19.7082C5.06498 20.2776 4.0105 19.5115 4.30985 18.5902L6.05296 13.2254C6.18683 12.8134 6.04018 12.362 5.68969 12.1074L1.12616 8.7918C0.342451 8.22239 0.745225 6.98278 1.71395 6.98278H7.35477C7.788 6.98278 8.17196 6.70382 8.30583 6.2918L10.0489 0.927053Z" fill="#F79009"/>
+                                            </svg>
+
+                                    </span>
+                                    <span>
+                                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.0489 0.927053C10.3483 0.00574231 11.6517 0.00573993 11.9511 0.927051L13.6942 6.29179C13.828 6.70382 14.212 6.98278 14.6452 6.98278H20.2861C21.2548 6.98278 21.6576 8.22239 20.8738 8.7918L16.3103 12.1074C15.9598 12.362 15.8132 12.8134 15.947 13.2254L17.6902 18.5902C17.9895 19.5115 16.935 20.2776 16.1513 19.7082L11.5878 16.3926C11.2373 16.138 10.7627 16.138 10.4122 16.3926L5.84869 19.7082C5.06498 20.2776 4.0105 19.5115 4.30985 18.5902L6.05296 13.2254C6.18683 12.8134 6.04018 12.362 5.68969 12.1074L1.12616 8.7918C0.342451 8.22239 0.745225 6.98278 1.71395 6.98278H7.35477C7.788 6.98278 8.17196 6.70382 8.30583 6.2918L10.0489 0.927053Z" fill="#F79009"/>
+                                            </svg>
+
+                                    </span>
+                                    <span>
+                                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.0489 0.927053C10.3483 0.00574231 11.6517 0.00573993 11.9511 0.927051L13.6942 6.29179C13.828 6.70382 14.212 6.98278 14.6452 6.98278H20.2861C21.2548 6.98278 21.6576 8.22239 20.8738 8.7918L16.3103 12.1074C15.9598 12.362 15.8132 12.8134 15.947 13.2254L17.6902 18.5902C17.9895 19.5115 16.935 20.2776 16.1513 19.7082L11.5878 16.3926C11.2373 16.138 10.7627 16.138 10.4122 16.3926L5.84869 19.7082C5.06498 20.2776 4.0105 19.5115 4.30985 18.5902L6.05296 13.2254C6.18683 12.8134 6.04018 12.362 5.68969 12.1074L1.12616 8.7918C0.342451 8.22239 0.745225 6.98278 1.71395 6.98278H7.35477C7.788 6.98278 8.17196 6.70382 8.30583 6.2918L10.0489 0.927053Z" fill="#F79009"/>
+                                            </svg>
+
+                                    </span>
+                                    <span>
+                                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.0489 0.927053C10.3483 0.00574231 11.6517 0.00573993 11.9511 0.927051L13.6942 6.29179C13.828 6.70382 14.212 6.98278 14.6452 6.98278H20.2861C21.2548 6.98278 21.6576 8.22239 20.8738 8.7918L16.3103 12.1074C15.9598 12.362 15.8132 12.8134 15.947 13.2254L17.6902 18.5902C17.9895 19.5115 16.935 20.2776 16.1513 19.7082L11.5878 16.3926C11.2373 16.138 10.7627 16.138 10.4122 16.3926L5.84869 19.7082C5.06498 20.2776 4.0105 19.5115 4.30985 18.5902L6.05296 13.2254C6.18683 12.8134 6.04018 12.362 5.68969 12.1074L1.12616 8.7918C0.342451 8.22239 0.745225 6.98278 1.71395 6.98278H7.35477C7.788 6.98278 8.17196 6.70382 8.30583 6.2918L10.0489 0.927053Z" fill="#F79009"/>
+                                            </svg>
+
+                                    </span>
+                                </div>
+                            </div>
+                            <p class="font-Inter font-normal text-xs text-[#434254] max-w-[285px]">“The ease of use, quality of coffee, and the
+                                outstanding customer support make with 
+                                Corfeel choice for all things coffee."</p>
+                        </div>
+                        
+                     </div>
+                     <div class="flex justify-center gap-3.75">
+                            <div class="h-[10px] w-[10px] rounded-full bg-[#4942BB]"></div>
+                            <div class="h-[10px] w-[10px] rounded-full bg-[#434254]"></div>
+                            <div class="h-[10px] w-[10px] rounded-full bg-[#434254]"></div>
+                     </div>
+                </div>
+                <!-- left arrow  -->
+                 <div class="absolute left-[-60px] top-1/2 transform translate-y-[-1/2]">
+                    <div class="h-[44px] w-[44px] rounded-full flex justify-center items-center border border-[#4B44BB]">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.9991 15.5858L10.4133 12L13.9991 8.41426C14.0479 8.36544 14.0906 8.31284 14.1272 8.25739C14.3835 7.86924 14.3408 7.34176 13.9991 7.00005C13.6086 6.60952 12.9754 6.60952 12.5849 7.00005L8.292 11.2929C8.1045 11.4805 7.9991 11.7348 7.9991 12C7.9991 12.2653 8.1045 12.5196 8.292 12.7072L12.5849 17C12.9754 17.3906 13.6086 17.3906 13.9991 17C14.3896 16.6095 14.3896 15.9764 13.9991 15.5858Z" fill="#4B44BB"/>
+                            </svg>
+
+                    </div>
+                 </div>
+                 <!-- right arrow  -->
+                  <div class="absolute right-[-60px] top-1/2 transform translate-y-[-1/2]">
+                    <div class="h-[44px] w-[44px] bg-[#4B44BB] rounded-full flex justify-center items-center border border-[#4B44BB]">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.0009 15.5858L13.5867 12L10.0009 8.41426C9.95209 8.36544 9.90937 8.31284 9.87276 8.25739C9.61648 7.86924 9.65919 7.34176 10.0009 7.00005C10.3914 6.60952 11.0246 6.60952 11.4151 7.00005L15.708 11.2929C15.8955 11.4805 16.0009 11.7348 16.0009 12C16.0009 12.2653 15.8955 12.5196 15.708 12.7072L11.4151 17C11.0246 17.3906 10.3914 17.3906 10.0009 17C9.61038 16.6095 9.61038 15.9764 10.0009 15.5858Z" fill="white"/>
+                    </svg>
+
+
+                    </div>
+                 </div>
+               </div>
+            </div>
+          </section>
+
+          <!-- contact us  -->
+           <section id="contactus" class="py-[70px]">
+            <div class="max-w-[1170px] mx-auto w-full bg-[#4942BB] py-[70px] px-[186px] rounded-5xl">
+                <div class="flex flex-col items-center gap-[60px]">
+                    <div class="flex flex-col items-center gap-7.5">
+                        <h3 class="font-Inter font-semibold text-4xl text-white max-w-[799px] text-center">Let’s work together to grow your business</h3>
+                        <p class="font-Inter font-normal text-medium-two text-[#DFDDF3] max-w-[570px] text-center">here are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration</p>
+                    </div>
+                    <div class="flex justify-center">
+                            <form action="">
+                               <div class="flex items-center gap-[14px]">
+                                 <input type="text" class="w-[367px] bg-[#FAF8FF] rounded-[30px] px-[30px] py-3 placeholder:text-[#434254] placeholder:font-Inter placeholder:font-link text-center" placeholder="Enter your email address">
+                                <button type="submit" class="font-Inter font-medium text-button px-[30px] py-3 bg-[#EAE34A] rounded-[30px]">Subscribe</button>
+                               </div>
+                            </form>
+                    </div>
+                </div>
+            </div>
+           </section>
     </body>
-    <footer></footer>
+    <footer class="bg-[#160A3A] py-[70px]">
+        <div class="max-w-[1170px] w-full mx-auto">
+            <div class="flex justify-between">
+                <div class="flex flex-col gap-7.5">
+                            <div class="flex gap-[6px] items-center">
+                                    <span>
+                                        <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M45.2155 19.5739V34.3008C45.2155 36.2516 44.1736 38.0554 42.4856 39.0319L29.7313 46.3941C28.0411 47.3706 25.9591 47.3706 24.2692 46.3941L11.5168 39.0319C9.82673 38.0554 8.78467 36.2516 8.78467 34.3008V19.5739C8.78467 17.6234 9.82673 15.8194 11.5168 14.8452L24.2692 7.48067C25.9591 6.50644 28.0411 6.50644 29.7313 7.48067L42.4856 14.8452C44.1736 15.8194 45.2155 17.6234 45.2155 19.5739Z" stroke="#835FF8" stroke-width="3.375" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M27 47.2501V26.9385" stroke="#835FF8" stroke-width="3.375" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9.50977 16.8398L27.0018 26.9563L44.4915 16.8398" stroke="#835FF8" stroke-width="3.375" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M45.1383 26.9385L36.0703 32.1772V42.6351" stroke="#835FF8" stroke-width="3.375" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M17.9341 11.2412L27.0018 16.48L36.0698 11.2412" stroke="#835FF8" stroke-width="3.375" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M17.9316 42.6351V32.1772L8.86377 26.9385" stroke="#835FF8" stroke-width="3.375" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </span>
+                                    <span class="font-Inter font-medium text-logo text-white">CodeLearn</span>
+                            </div>
+                            <div class="flex flex-col gap-[6px]">
+                            <p class="font-Poppins font-semibold text-xss text-white tracking-60percent">Contact</p>
+                            <a class="font-Inter font-medium text-3.5xl text-[#FDDC02]" href="mailto:hollocode@gmail.com">hollocode@gmail.com</a>
+                            </div>
+                </div>
+                <div class="flex flex-col gap-[100px]">
+                    <ul class="flex gap-7.5">
+                        <li><a class="font-Inter font-normal text-white text-sublink" href="">Teachers</a></li>
+                        <li><a class="font-Inter font-normal text-white text-sublink"  href="">Courses</a></li>
+                        <li><a class="font-Inter font-normal text-white text-sublink"  href="">Schoolership</a></li>
+                        <li><a class="font-Inter font-normal text-white text-sublink"  href="">Pricing</a></li>
+                    </ul>
+                    <div class="">
+                        <p class="font-Inter font-normal text-[#A4A9B6]">Copyright©codelearn 2021. All rights reserved</p>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-7.5">
+                    <div class="flex flex-col gap-3.75">
+                        <p class="font-Inter font-bold text-sm text-white">Stay up to date</p>
+                        <p class="font-Inter font-normal text-sm text-[#CFD1D6] max-w-[234px]">Stay Informed On How You Can Make a Difference
+                                    </p>
+                    </div>
+                    <form action="">
+                        <div class="flex flex-col gap-1">
+                        <input type="text" class="bg-[#31215F] rounded-[22.5px] px-[30px] py-2.5" placeholder="Your email address">
+                        <div>
+                            <button type="submit" class="py-[7px] px-[18px] rounded-[22.5px] bg-[#EAE34A] font-Inter  font-normal text-[#31215F]">Submit</button>
+                        </div>
+                         </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </footer>
   </body>
 </html>

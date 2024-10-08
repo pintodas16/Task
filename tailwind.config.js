@@ -13,8 +13,11 @@ module.exports = {
 
       fontSize: {
         logo: ["2.125rem", "2.571875rem"], // 34px, 41.5 px
+        xs: ["0.875rem", "1.25rem"], //14,20
+        xss: ["0.875rem", "0.875rem"], //14,14
         sss: ["0.875rem", "1.36rem"], //14,21
         link: ["1.125rem", "1.36rem"], //18px , 21px
+        sublink: ["1.125rem", "1rem"], //18px , 16px
         button: ["1.25rem", "1.5125rem"], // 20, 24
         p: ["0.875rem", "1.375rem"], // 14px, 22px
         small: ["0.875rem", "1.059"], // 14px, 16.95px
@@ -23,6 +26,7 @@ module.exports = {
         sm: ["0.97rem", "1.251875rem"], // 15, 20.33
         "main-heading": ["4.375rem", "5.295rem"], //70,84
         medium: ["1rem", "1.75rem"], // 16px, 28px
+        "medium-two": ["1.125rem", "1.625rem"], //18,26
         large: ["1.25rem", "1.875rem"], // 20px, 30px
         h4: ["3rem", "4.125rem"], //48, 66
         "tiny-xl": ["1.5rem", "1.875rem"], // 24px , 34px
@@ -30,7 +34,12 @@ module.exports = {
         h3: ["3.375rem", "4.084375rem"], //54,65
         h5: ["1.5rem", "1.82rem"], // 24, 29
         xl: ["1.25rem", "1.625rem"], // 20, 26
+
         "heading-six": ["1.125rem", "1.625rem"], // 18px , 28px
+        "tiny-xl": ["1.5rem", "2rem"], // 24px , 32px
+        "2xl": ["1.25rem", "1.75rem"], // 10px , 28px
+        "4xl": ["3.75rem", "4.5rem"], //60,72
+        "3.5xl": ["1.25rem", "2.5rem"], //20,40
       },
       fontFamily: {
         Inter: ["Inter", "sans-serif"],
@@ -55,7 +64,7 @@ module.exports = {
         // "2xl": "0.75rem", // 12px
         // "2.5xl": "0.9375rem", // 15px
         "3xl": "1rem", // 16px
-        // "4xl": "1.25rem", // 20px
+        "4xl": "1.25rem", // 20px
         "5xl": "1.5rem", // 24px
         // "6.5xl": "1.875rem", // 30px
       },
@@ -63,6 +72,11 @@ module.exports = {
         "shadow-one": "0px 10px 30px 0px #E5DE3529",
         "shadow-two": "0px 4px 16px -8px #92B6C614",
         "shadow-three": "4px 14px 50px -12px #20353F29",
+        "shadow-four": " 0px 40px 60px -6px #0000000F",
+        "shadow-card": "box-shadow: 0px 40px 60px -6px #0000000F",
+      },
+      letterSpacing: {
+        "60percent": "0.6em", // 60% of the font size
       },
     },
   },
